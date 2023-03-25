@@ -37,3 +37,6 @@ Team: <your_team_number>
 sudo /etc/init.d/FAHClient status
 ```
 This should show you the status of the Folding@home client, including whether it is running, what work unit it is processing, and more. If everything is set up correctly, you should be able to start contributing to Folding@home immediately.
+
+## Copyright & License
+[MIT](https://github.com/paraskevasleivadaros/foldingathome.org/blob/master/LICENSE)
