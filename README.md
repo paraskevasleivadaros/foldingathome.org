@@ -10,30 +10,30 @@ Folding@home Installation on Google Cloud Platform on a Ubuntu 22.04 LTS machine
 - Step 6: Enable HTTP and HTTPS for the virtual machine.
 - Step 7: After creating the virtual machine, click on the "SSH" icon to open a terminal window in your browser.
 - Step 8: In the terminal, run the following commands
-```
+```shell
 sudo apt update
 sudo apt upgrade
 ```
 - Step 9: Open a terminal window and type the following command to create a new directory called "foldingathome.org" and navigate into it:
-```
+```shell
 mkdir foldingathome.org && cd foldingathome.org/
 ```
 - Step 10: Download Folding@home client by typing command below (I use v7.4):
-```
+```shell
 wget --no-check-certificate https://download.foldingathome.org/releases/public/release/fahclient/debian-testing-64bit/v7.4/fahclient_7.4.4_amd64.deb
 ```
 - Step 11: Install the Folding@home client by typing the following command:
-```
+```shell
 sudo dpkg -i --force-depends fahclient_7.4.4_amd64.deb
 ```
 - Step 12: When prompted, enter your Folding@home username, passkey, and team number:
-```
+```shell
 Username: <your_username>
 Passkey: <your_passkey>
 Team: <your_team_number>
 ```
 - Step 13: Finally, check the status of the Folding@home client by typing the following command:
-```
+```shell
 sudo /etc/init.d/FAHClient status
 ```
 This should show you the status of the Folding@home client, including whether it is running, what work unit it is processing, and more. If everything is set up correctly, you should be able to start contributing to Folding@home immediately.
