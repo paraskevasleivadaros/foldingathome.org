@@ -1,4 +1,4 @@
-# foldingathome.org
+# 🦠 foldingathome.org
 Folding@home Installation on Google Cloud Platform on a Ubuntu 22.04 LTS machine
 
 ### Installation
