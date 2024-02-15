@@ -48,6 +48,3 @@ This should show you the status of the Folding@home client, including whether it
 ### 🛠️ Tech Stack
 [![Linux](https://skills.thijs.gg/icons?i=linux)](https://linux.org/)
 [![GCP](https://skills.thijs.gg/icons?i=gcp)](https://cloud.google.com/)
-
-### ©️ Copyright & License
-[MIT](https://github.com/paraskevasleivadaros/foldingathome.org/blob/master/LICENSE)
