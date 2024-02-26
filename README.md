@@ -52,7 +52,7 @@ sudo /etc/init.d/FAHClient status
 ```
 This should show you the status of the Folding@home client, including whether it is running, what work unit it is processing, and more. If everything is set up correctly, you should be able to start contributing to Folding@home immediately.
 
-CPU Usage should be 100% if everything is setup correctly:
+CPU usage should be 100% if everything is setup correctly:
 ```shell
 top
 ```
