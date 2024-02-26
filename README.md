@@ -39,6 +39,13 @@ Username: <your_username>
 Passkey: <your_passkey>
 Team: <your_team_number>
 ```
+Mine are:
+```shell
+Username: paraskevasleivadaros
+Passkey: fc33128fceb9373efc33128fceb9373e
+Team: 225605
+```
+
 Finally, check the status of the Folding@home client by typing the following command:
 ```shell
 sudo /etc/init.d/FAHClient status
