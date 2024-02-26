@@ -19,7 +19,7 @@ After creating the virtual machine, click on the "SSH" icon to open a terminal w
 In the terminal, run the following commands
 ```shell
 sudo apt update
-sudo apt upgrade
+sudo apt -y upgrade
 ```
 Open a terminal window and type the following command to create a new directory called "foldingathome.org" and navigate into it:
 ```shell
